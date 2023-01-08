@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 export default function App(){
   return <BrowserRouter>
     <Routes>
+      Chat
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Chat />} />
